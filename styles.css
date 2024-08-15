@@ -4,7 +4,7 @@ body {
   font-size: 14px;
   font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
   width: 100%;
-  margin: 0;
+  margin: auto;
   padding: 0;
 }
 
@@ -38,8 +38,8 @@ header .user-info {
 
 .container {
   padding: 10px;
-  margin: 20px auto;
-  max-width: 1313px;
+  margin: 20px 3px;
+  max-width:auto;
   background-color: #EDF2F5;
   border: 1px solid #D1D1D1;
   border-radius: 7px 7px 0 0;
@@ -48,7 +48,7 @@ header .user-info {
 }
 
 .back-container {
-  max-width: 1343px;
+  max-width: auto;
   background-color: #07568F;
   border: 1px solid #D1D1D1;
   border-radius: 10px;
@@ -72,9 +72,8 @@ header .user-info {
   padding: 10px;
   border-radius: 7px 7px 0 0;
   background-color: #FFFFFF;
-  margin: 20px auto 0;
-  margin-top: 10px;
-  max-width: 1280px;
+  margin: 3px 10px;
+  max-width: 3px auto;
   box-shadow: 0px 4px 5px #00000044;
 }
 
@@ -83,8 +82,8 @@ header .user-info {
   padding: 10px;
   border: 1px solid #D1D1D1;
   border-radius: 0 0 7px 7px;
-  margin: 20px auto 3px;
-  max-width: 1280px;
+  margin: 3px 10px;
+  max-width: 3px auto;
   margin-top: 3px;
   box-shadow: 0px 4px 5px #00000044;
 }
@@ -94,8 +93,7 @@ header .user-info {
   font-weight: bold;
   color: #07568F;
   text-align: left;
-  margin-top: 10px;
-  margin-left: 7px;
+  margin: 7px 7px;
 }
 
 .view-button {
@@ -132,14 +130,19 @@ header .user-info {
   color: #4A4A4A;
 }
 
+.table-fit{
+  display: flex;
+  align-items: center;
+  margin: 20px 60px;
+  max-width: auto;
+}
+
 table {
   border: 1px solid #797878;
   width: 100%;
   border-collapse: collapse;
-  border-radius: 2px;
-  margin: 20px auto;
-  max-width: 1000px;
   box-shadow: 0px 4px 5px #00000044;
+  
 }
 
 th, td {
@@ -174,14 +177,16 @@ th {
   color: #1D1D1D;
   padding: 10px;
   border-radius: 0 0 7px 7px;
-  margin: 20px auto 15px;
-  max-width: 1316px;
+  margin: 3px;
+  margin-bottom: 20px;
+  max-width:3px auto;
   margin-top: 3px;
   box-shadow: 0px 4px 5px #00000044;
 }
 
 .published-date p {
   margin-top: 2px;
+
   text-align: left;
   color: #4A4A4A;
 }
